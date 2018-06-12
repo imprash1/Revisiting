@@ -18,7 +18,6 @@ namespace Revisiting.Tests
             Trizetto t = new Trizetto();
             List<int> expected = new List<int> { 2, 4, 6, 7, 8 };
             List<int> actual = t.SortAndPrintMissing(ab);
-            //test
             Assert.That(actual, Is.EquivalentTo(expected));
         }
         [Test]
